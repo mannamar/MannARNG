@@ -21,9 +21,8 @@ h3 {
     color: white;
     font-family: 'Inter', sans-serif;
     margin-top: 15px;
+    line-height: 1.5;
 }
-
-
 
 body {
     background-image: url('../assets/dbz2.jpg');
@@ -35,7 +34,7 @@ body {
 
 #generateBtn,
 #clearBtn {
-    margin-top: 50px;
+    margin-top: 65px;
     margin-bottom: 50px;
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -53,4 +52,14 @@ body {
 
 #lastFiveTxt {
     white-space: pre-line;
+}
+
+#challImg {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#lastFiveTitle {
+    padding-top: 25px;
 }
